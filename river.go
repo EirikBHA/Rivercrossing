@@ -6,10 +6,12 @@ import (
 )
 
 func main() {
-	fmt.Println(state.ViewState());
+	fmt.Println(state.CheckState())
+
 	state.PutInBoat();
-	fmt.Println(state.ViewState());
-	state.Crossriver();
-	fmt.Println(state.ViewState());
+	fmt.Println(state.CheckState())
+
+	state.Crossriver()
+	fmt.Println(state.CheckState())
 
 }

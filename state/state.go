@@ -14,6 +14,6 @@ func Crossriver() {
 	 state = "[kylling rev korn ---\\ \\------------------\\-HS-/---]"
 }
 
-func ViewState() string {
+func CheckState() string {
 	return state
 }
